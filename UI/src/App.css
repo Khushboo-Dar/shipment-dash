@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+
+body{
+  width: 100vw;
+  background-color: #F1F1F1;
+}
+
+/* .dashboard, .analytics {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.dashboard .stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard .stat {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+/* .map {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.pie-charts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pie-chart {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.latest-documents, .announcements {
+  margin-bottom: 20px;
+}
+
+.latest-documents ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.latest-documents li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.announcements {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.analytics .analytics-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.analytics .chart {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.analytics .tables {
+  display: flex;
+  justify-content: space-between;
+}
+
+.analytics .table {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.analytics .table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.analytics .table th, .analytics .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
+
+  .dashboard .stats {
+    flex-direction: column;
+  }
+
+  .dashboard .stat {
+    margin-bottom: 10px;
+  }
+
+  .pie-charts {
+    flex-direction: column;
+  }
+
+  .pie-chart {
+    margin-bottom: 10px;
+  }
+
+  .analytics .analytics-content {
+    flex-direction: column;
+  }
+
+  .analytics .chart {
+    margin-bottom: 10px;
+  }
+
+  .analytics .tables {
+    flex-direction: column;
+  }
+
+  .analytics .table {
+    margin-bottom: 10px;
+  }
+} */

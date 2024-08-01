@@ -1,0 +1,107 @@
+.table-container {
+  overflow-x: auto;
+}
+
+.custom-table {
+  border-collapse: collapse;
+  text-align: left;
+  border: 1px solid var(--text-color);
+  table-layout: fixed;
+}
+
+.custom-table thead {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.custom-table tbody tr{
+  border-bottom: 1px solid #5247462c;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px;
+  min-width: 150px; /* Adjust this value as needed */
+}
+
+.custom-table td p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-table .first-column {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.custom-table .list-item {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.custom-table .item-label {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media (min-width: 640px) {
+  .custom-table .list-item {
+    font-size: 18px;
+  }
+
+  .custom-table .item-label {
+    font-size: 20px;
+  }
+}
+
+
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 1rem;
+  color: #524746;
+  padding-inline: 1.32rem;
+}
+
+.rows-per-page {
+  display: flex;
+  align-items: center;
+}
+
+.select-btn{
+  padding-inline: 1.4rem;
+  padding-block: 0.34rem;
+  background-color: white;
+  border: 1px solid #524746;
+  font-size: 1.2rem;
+  color: #524746;
+}
+
+.rows-per-page select {
+  margin-right: 10px;
+}
+
+.row-range {
+  font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #524746;
+  border-radius: 0.4rem;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  color: #524746;
+  font-weight: 600;
+}
+
+.pagination button.active {
+  background-color: #524746;
+  color: white;
+}

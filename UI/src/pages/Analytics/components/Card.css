@@ -1,0 +1,21 @@
+.card{
+    background-color: white;
+    padding-block: 2rem;
+    padding-inline: 1.8rem;
+    border-radius: 1.4rem;
+    width: 30rem;
+}
+
+.card-heading{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #353535;
+    margin-bottom: 1rem;
+}
+
+.card-row{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 0.6rem;
+    border-bottom: 1px solid #35353524;
+}
